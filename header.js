@@ -1,6 +1,7 @@
 $(".navbar-btn").click(function () {
   $(".header-list").toggleClass("active");
   $(".non_mask").toggleClass("mask");
+  $(".material-symbols-outlined").toggleClass("none");
 });
 $(".header-link").hover(
   function () {
